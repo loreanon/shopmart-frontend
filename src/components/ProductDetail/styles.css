@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: #ffffff; /* White color */
+    padding: 15px; /* Added more padding for better spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+    margin-bottom: 20px; /* Adds space between wrapper and other elements */
+}
+
+/* Mobile responsiveness: */
+@media (max-width: 767px) {
+    .wrapper {
+        padding: 10px; /* Slightly less padding on smaller screens */
+    }
+}
+
+/* Larger screens */
+@media (min-width: 1024px) {
+    .wrapper {
+        padding: 20px; /* More padding on larger screens */
+    }
+}
